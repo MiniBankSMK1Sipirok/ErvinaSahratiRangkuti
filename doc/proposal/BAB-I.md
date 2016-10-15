@@ -1,68 +1,49 @@
 <h2 align="center">BAB I <br> PENDAHULUAN</h2>
 <strong>1.1 Latar Belakang</strong>
 <p align="justify">
-Di era saat ini sampah yang tidak bisa dimanfaatkan atau didaur ulang menjadi masalah umum pada setiap kota besar. Bahkan di beberapa kota menjadi masalah yang serius yang dapat menimbulkan ketidak nyaman terhadap masyarakat itu sendiri. Dengan kemajuan teknologi, masalah seperti ini dapat menjadi solusi untuk mengurangi dampak yang ditimbulkan dari proses pengumpulan sampah yang masih konvensional, dengan berkembangnya teknologi dirancang sebuah Smart Trash Bin yang bisa merespon otomatis pada pengelolaan sampah yang belum bisa dipilah menjadi dua bagian organik dan non-organik dimana untuk mengetahui sampah yang bisa dimanfaatkan dan didaur ulang yang akan diambil oleh petugas pengangkut sampah. Tempat sampah yang belum bisa diketahui lokasinya oleh petugas pengakut sampah akan mempersulit pengambilan sampah. Selain itu kepala petugas pengakut sampah belum bisa mengetahui posisi lokasi petugas pengakut dan posisi lokasi tempat sampah.
-<br><br>
-Maka dengan adanya permasalah tersebut, penulis mengusulkan Proposal Proyek II yang berjudul <i>“Pengembangan SIGAMAci (Smarttong Integrated Garbage Management system For Smart City) Berbasis IoT (Internet of Things)”</i>. Yang dimana akan dibuat sebuah Smart Trash Bin yang bisa mengelola sampah organik dan non-organik yang bisa dimanfaatkan atau didaur ulang, selain itu akan dibuat aplikasi yang diharapkan memudahkan petugas pengangkut sampah bisa mengetahui tempat sampah yang akan diambil, selain itu kepala petugas pengangkut dapat mengetahui dimana lokasi tempat sampah dan lokasi petugas penangkut berada. Jadi, dalam pengembangan ini penulis mengintegrasikan Smart Trash Bin dengan system untuk mempermudah petugas pengangkut sampah memilah sampah. 
-<br><br>
-Dengan prototype tempat sampah pintar yang akan dikembangkan menggunakan mikrokontroller arduino mega yang bisa memilah sampah organik dan non-organik yang menggukan sensor <i>autonics proximity cr30-15dn</i> yang difungsikan untuk memilah sampah, selain itu juga beberapa sensor diantaranya  sensor jarak menggunakan sensor ultrasonik  untuk indikator ketinggian sampah pada tempat sampah pintar, motor servo sebaagai pengendali pintu otomatis tempat smapah pintar, dan lcd untuk mengetahui sampah yang dibuang organik atau non-organik.
+Saat ini, dunia bisnis dan keuangan sangat cepat mengalami kemajuan dan perkembangannya, hal ini sejalan dengan kemajuan teknologi informasi yang berkembang dewasa ini. Sehingga semua transaksi keuangan yang terjadi dalam kehidupan sehari-hari bisa terlayani dengan cepat. Komputerisasi merupakan solusi bagi sebagian masyarakat yang kesulitan dalam pengelolaan informasi secara manual. Saat ini komputer merupakan teknologi yang handal untuk membantu menunjang informasi yang cepat, tepat dan akurat. Untuk menyesuaikan perkembangan tersebut tentunya dunia pendidikan yang ada harus bisa memberikan pembelajaran kepada siswa-siswinya bagaimana hal ini bisa terlaksana.
+Didaerah Tapanuli Selatan, khususnya di SMK Negeri 1 Sipirok belum adanya Sistem yang menunjang dalam proses pembelajaran di kelas, khususnya praktek pembelajaran akuntansi perbankan. Metode mengajar yang sering digunakan dalam proses pembelajaran dengan metode konvensional, dalam hal ini metode ceramah. Sehingga banyak para lulusan SMK Negeri 1 Sipirok yang kurang persiapan untuk bisa terjun ke lapangan kerja setlah lulus.
+Kami sebagai orang yang berkecimpung dalam dunia IT dan pengalaman dalam bidang pendidikan formal maupun non-formal, berkeinginan untuk membantu para pendidik yang ada di SMK Negeri 1 Sipirok untuk bisa mengaplikasikan kemajuan perbankan saat ini. Oleh karena itu kami membuat Rancang Bangun Sistem Informasi Tabungan Siswa pada Mini Bank di Jurusan Akuntansi SMK Negeri 1 Sipirok Berbasis Web.
 </p>
 <br>
 <strong>1.2 Identifikasi Masalah</strong>
 <p align="justify">
-Berdasarkan latar belakang tersebut dapat di identifikasi bahwa permasalahan yang ada adalah:
-<br>1. Pengelolaan sampah yang belum efektif dan belum bisa dimanfaatkan.
+Berdasarkan latar belakang yang telah dikemukakan di atas, masalah dapat  diidentifikasi sebagai berikut :
+<br>1.	Metode belajar yang masih Konvensional
 <br>
-2. Informasi tentang petugas pengangkut yang belum efektif.
+2.	Belum adanya aplikasi yang menunjang untuk kegiatan praktek siswa dalam dunia perbankan di SMK Negeri 1 Sipirok
 <br>
-3. Belum lokasi tempat sampah yang bisa diketahui.
+3.	Kurangnya persiapan siswa/siswi SMK Negeri 1 Sipirok untuk bisa terjun kelapangan kerja setelah lulus
 </p>
 <br>
-<strong>1.3 Tujuan dan Manfaat</strong>
+<strong>1.3 Tujuan</strong>
 <br>
+Tujuan dari Pembuatan Aplikasi Mini Bank Oleh Siswa Untuk Siswa Smk Negeri 1 Sipirok Menggunakan Framework Laravel 5, yaitu :
 <br>
-<strong>1.3.1 Tujuan</strong>
-<p align="justify">
-Berdasarkan uraian latar belakang masalah, maka tujuan penyusunan proposal Proyek II yang berjudul <i>“Pengembangan SIGAMAci (Smarttong Integrated Garbage Management system For Smart City) Berbasis IoT (Internet of Things)”</i> ini adalah:
+1.	Siswa/siswi bisa langsung belajar dari kondisi riil
 <br>
-1. Pengelolaan sampah yang bisa dimanfaatkan yang dipilah secara   
-otomatis antara organik dan non-organik.
+2.	Untuk menunjang kegiatan praktek siswa/siswi dalam dunia perbankan di SMK Negeri 1 Sipirok
 <br>
-2. Mengetahui lokasi petugas pengangkut.
-<br>
-3. Mengetahui lokasi tempat sampah.
-</p>
-<br>
-<strong>1.3.2 Manfaat</strong>
-<p align="justify">
-Manfaat dari penyusunan proposal ini adalah sebagai berikut:
-<br>
-Bagi pengelola sistem administrasi:
-<br>
-1. Mengetahui sampah yang bisa dimanfaatkan.
-<br>
-2. Mengetahui lokasi petugas pengangkut sampah berada.
-<br>
-Bagi ilmu pengetahuan :
-<br>
-Membuktikan IoT <i>(Internet of Things)</i> bisa bermanfaat bagi manusia dan dapat digunakan dalam aspek-aspek kehidupan sehari-hari termasuk dalam pengelolaan sampah pada lingkungan.
+3.	Mempersiapkan siswa/siswi untuk bisa terjun kelapangan kerja setelah lulus
 </p>
 <br>
 <strong>1.4 Ruang Lingkup</strong>
 <p align="justify">
-Dalam penyusunan proposal proyek II, penulis membatasi pembahasan hanya pada:
+Beberapa hal yang perlu dibatasi permasalahannya, diantaranya :
 <br>
-1. Analisis sistem hanya meliputi: 
+1.	Aplikasi ini hanya dapat di akses oleh Guru, anggota pengurus (full akses) dan anggota
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Memberikan data lokasi tempat sampah. 
+2.	Sub modul pengerjaan (Submodul Pengolahan Data)
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Memberikan data lokasi petugas pengangkut sampah. 
-<br>
-2. Pembuatan desain tempat sampah pintar berbasis IoT yang dapat memilah sampah organik dan non-organik yang terintegrasi dengan sistem administrasi pengelolaan sampah.
-<br>
-3. Perancangan tempat sampah pintar berbasis IoT yang dapat memilah sampah organik dan non-organik yang terintegrasi dengan sistem administrasi pengelolaan sampah.
+3.	Laporan dicetak dalam bentuk Pdf dan word
 </p>
 <br>
+4.	Aplikasi ini berbasis Web dengan Framework Laravel
+</br>
+<br>
+5.	Menyediakan aplikasi dalam kegiatan praktek siswa/siswi dalam dunia perbankan di SMK Negeri 1 Sipirok
+</br>
+
 <strong>1.5 Jadwal Kegiatan Pengerjaan Proyek</strong>
 <p align="justify">
 <p align="center">
